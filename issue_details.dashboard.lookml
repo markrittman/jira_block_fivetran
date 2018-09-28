@@ -292,7 +292,6 @@
     - version.name
     - version.start_date
     - version.release_date
-    - issue_extended.id
     sorts:
     - version.start_date desc
     limit: 500
@@ -300,7 +299,6 @@
     hidden_fields:
     - issue.id
     listen:
-      Issue ID: issue_extended.id
     row: 5
     col: 10
     width: 14

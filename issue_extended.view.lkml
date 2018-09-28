@@ -105,7 +105,6 @@ view: issue_extended {
 
         ;;
 
-    indexes: ["id"]
   }
 
   dimension: id {
